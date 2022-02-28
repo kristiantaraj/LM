@@ -7,6 +7,7 @@
   <title>LM Snack Bar</title>
   <script src="https://kit.fontawesome.com/143f7ba578.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/slick-theme.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -14,7 +15,7 @@
 </head>
 <body>
 
-  <div class="loader">
+  <div class="loader hide">
       <div></div>
       <div></div>
       <div></div>
@@ -24,7 +25,7 @@
 
   
 
-  <div class="hide">
+  <div class="hided">
 <div class="main">
 
   
@@ -99,11 +100,23 @@
     <h2>Snacks</h2>
   </div> -->
 
-  <section id="featured">
+  <section id="featured" class="container">
 
-    <div class="container">
-      <div class="card-deck">
-        <div class="card">
+    <div class="toggles">
+      <div class="contain">
+      <p id="showall"><img src="assets/hamburger-menu.png" alt=""></p> 
+     <p id="snacks"><img src="assets/food-restaurant.png" alt=""></p>
+     <p id="drinks"><img src="assets/tea-hot.png" alt=""></p>
+     <p id="alcohol"><img src="assets/glass-drinks.png" alt=""></p>
+     <p id="specials"><img src="assets/stars.png" alt=""></p>
+    </div>
+   </div>
+    <div class=" posts">
+
+      <div class="row">
+      <div class="card-deck ">
+        <div class=" col-12 col-sm-6 col-md-4 col-lg-3 snacks post">
+          <div class="card-design">
           <img class="card-img-top" src="https://images.pexels.com/photos/1095550/pexels-photo-1095550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
@@ -111,23 +124,9 @@
             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
           </div>
         </div>
-        <div class="card">
-          <img class="card-img-top" src="https://images.pexels.com/photos/1095550/pexels-photo-1095550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
         </div>
-        <div class="card">
-          <img class="card-img-top" src="https://images.pexels.com/photos/1095550/pexels-photo-1095550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
-        </div>
-        <div class="card">
+        <div class=" col-12 col-sm-6 col-md-4 col-lg-3 snacks post">
+          <div class="card-design">
           <img class="card-img-top" src="https://images.pexels.com/photos/1095550/pexels-photo-1095550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
@@ -135,7 +134,123 @@
             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
           </div>
         </div>
+        </div>
+        <div class=" col-12 col-sm-6 col-md-4 col-lg-3 snacks post">
+          <div class="card-design">
+          <img class="card-img-top" src="https://images.pexels.com/photos/1095550/pexels-photo-1095550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        </div>
+        <div class=" col-12 col-sm-6 col-md-4 col-lg-3 snacks post">
+          <div class="card-design">
+          <img class="card-img-top" src="https://images.pexels.com/photos/1095550/pexels-photo-1095550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        </div>
+        <div class=" col-12 col-sm-6 col-md-4 col-lg-3 snacks post">
+          <div class="card-design">
+          <img class="card-img-top" src="https://images.pexels.com/photos/1095550/pexels-photo-1095550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        </div>
+        <div class=" col-12 col-sm-6 col-md-4 col-lg-3 drinks post">
+          <div class="card-design">
+          <img class="card-img-top" src="https://images.pexels.com/photos/616836/pexels-photo-616836.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        </div>
+        <div class=" col-12 col-sm-6 col-md-4 col-lg-3 drinks post">
+          <div class="card-design">
+          <img class="card-img-top" src="https://images.pexels.com/photos/616836/pexels-photo-616836.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        </div>
+        <div class=" col-12 col-sm-6 col-md-4 col-lg-3 drinks post">
+          <div class="card-design">
+          <img class="card-img-top" src="https://images.pexels.com/photos/616836/pexels-photo-616836.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        </div>
+
+        <div class=" col-12 col-sm-6 col-md-4 col-lg-3 specials post">
+          <div class="card-design">
+          <img class="card-img-top" src="https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        </div>
+
+        <div class=" col-12 col-sm-6 col-md-4 col-lg-3 specials post">
+          <div class="card-design">
+          <img class="card-img-top" src="https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        </div>
+        <div class=" col-12 col-sm-6 col-md-4 col-lg-3 specials post">
+          <div class="card-design">
+          <img class="card-img-top" src="https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        </div>
+        <div class=" col-12 col-sm-6 col-md-4 col-lg-3 alcohol post">
+          <div class="card-design">
+          <img class="card-img-top" src="https://images.pexels.com/photos/858466/pexels-photo-858466.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        </div>
+        <div class=" col-12 col-sm-6 col-md-4 col-lg-3 alcohol post">
+          <div class="card-design">
+          <img class="card-img-top" src="https://images.pexels.com/photos/858466/pexels-photo-858466.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        </div>
+
       </div>
+    </div>
+    
     </div>
 
 
@@ -162,9 +277,5 @@
   <script type="text/javascript" src="js/slick.js"></script>
   <script type="text/javascript" src="js/app.js"></script>
 
-<script type="text/javascript">
-  
-  
-</script>
 </body>
 </html>

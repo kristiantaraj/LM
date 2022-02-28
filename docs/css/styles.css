@@ -526,7 +526,18 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /* #Media
   ================================================== */
+@media only screen and (max-width: 576px) {
+  .col-12 {
+    flex: none !important; } }
+
 @media (max-width: 767px) {
+  .toggles {
+    width: auto;
+    margin: auto;
+    display: block;
+    clear: both;
+    overflow: hidden;
+    margin-top: -40px; }
   #banner {
     margin-top: 85px; }
   h1 {
@@ -542,8 +553,7 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     height: 1px;
     content: "";
     border: none;
-    background-color: #FFF;
-    vertical-align: 0; }
+    background-color: #FFF; }
   .dropdown-toggle::after {
     position: absolute;
     display: block;
@@ -554,7 +564,6 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     content: "";
     border: none;
     background-color: #FFF;
-    vertical-align: 0;
     transition: all 200ms linear; }
   .dropdown-toggle[aria-expanded="true"]::after {
     transform: rotate(90deg);
@@ -635,9 +644,6 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .hide {
   display: none; }
 
-body {
-  background-color: #222; }
-
 .loader {
   width: 100px;
   height: 15px;
@@ -703,3 +709,46 @@ body {
   border-top: 1px solid #ccc;
   height: 5px;
   background-color: #f8f8f8; }
+
+.toggles {
+  margin: 0 auto;
+  display: block;
+  clear: both;
+  overflow: hidden;
+  margin-top: -40px; }
+  .toggles .contain {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; }
+  .toggles p {
+    color: #1d1d1d;
+    background-color: white;
+    display: block;
+    border-radius: 10px;
+    padding: 10px;
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 0px 2px;
+    margin-bottom: 40px;
+    border: none; }
+    .toggles p img {
+      width: 30px; }
+
+.card-design {
+  color: white;
+  text-decoration: none;
+  background-color: #2e2e2e;
+  display: block;
+  border-radius: 5px;
+  box-shadow: 0px 0px 12px #00000032;
+  transition: 2s smooth;
+  padding: 5px;
+  margin-bottom: 15px;
+  padding-top: 15px; }
+  .card-design p {
+    color: white;
+    text-align: left; }
+    .card-design p small {
+      color: white !important; }

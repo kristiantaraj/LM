@@ -129,7 +129,6 @@ body,html {
 
 #featured {
     margin-top: 100px;
-
 }
 
 .card {
@@ -598,8 +597,23 @@ body,html {
   
   /* #Media
   ================================================== */
-  
+  @media only screen and (max-width: 576px) {
+    .col-12 {
+      flex: none !important;
+    }
+  }
   @media (max-width: 767px) { 
+
+
+
+    .toggles{ 
+      width: auto;  
+      margin: auto;
+      display: block;
+      clear: both;
+      overflow: hidden;
+      margin-top: -40px;
+    }
 
     #banner{
       margin-top: 85px;
@@ -621,7 +635,6 @@ body,html {
       content: "";
       border: none;
       background-color: #FFF;
-      vertical-align: 0;
     }
     .dropdown-toggle::after {
       position: absolute;
@@ -633,7 +646,6 @@ body,html {
       content: "";
       border: none;
       background-color: #FFF;
-      vertical-align: 0;
       transition: all 200ms linear;
     }
     .dropdown-toggle[aria-expanded="true"]::after{
@@ -660,7 +672,13 @@ body,html {
       background-color: transparent;
       box-shadow: none;
     }
+
+    
+
   }
+
+  
+
 
   //animation on load
 
@@ -745,9 +763,7 @@ body,html {
   .hide {
     display: none;
   }
-  body {
-    background-color: $c1;
-  }
+
   .loader {
     width: 100px;
     height: 15px;
@@ -796,3 +812,65 @@ body,html {
       height: 5px;
     background-color:#f8f8f8;
   }
+
+
+  .toggles{  
+    margin: 0 auto;
+    display: block;
+    clear: both;
+    overflow: hidden;
+    margin-top: -40px;
+
+    .contain {
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+    }
+
+    p {
+    color: $primary;
+    background-color: $white;
+    display: block;
+    border-radius: 10px;
+    padding: 10px;
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    font-size: 20px; 
+    margin: 0px 2px;
+    margin-bottom: 40px;
+    border: none;
+
+    img {
+      width: 30px;
+    }
+  }
+
+      
+
+  }
+
+  .card-design {
+    color: $white;
+    text-decoration: none;
+    background-color: $secondary;
+    display: block;
+    border-radius: 5px;
+    box-shadow: 0px 0px 12px #00000032;
+    transition: 2s smooth;
+    padding: 5px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+
+    p {
+      color: $white;
+      text-align: left;
+
+      small {
+        color: $white !important;
+      }
+    }
+
+    
+}
+  
