@@ -1208,5 +1208,8 @@ section {
 
 .quick-menu {
   margin-bottom: 20px;
-  background-color: $white !important;
+
+  button {
+    background-color: $white !important;
+  }
 }

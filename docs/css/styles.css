@@ -993,5 +993,6 @@ section {
   border-radius: 0 !important; }
 
 .quick-menu {
-  margin-bottom: 20px;
-  background-color: white !important; }
+  margin-bottom: 20px; }
+  .quick-menu button {
+    background-color: white !important; }
