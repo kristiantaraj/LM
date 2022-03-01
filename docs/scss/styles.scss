@@ -697,6 +697,13 @@ body,html {
     }
   }
 
+  @keyframes loader2 {
+    50% {
+      transform: translateY(-10px);
+      opacity: 0.3;
+    }
+  }
+
   .fade-in {
     animation: fadeIn ease 5s;
     -webkit-animation: fadeIn ease 5s;
@@ -770,6 +777,16 @@ body,html {
     display: none;
   }
 
+  .titled h2 {
+    position: relative;
+    top: 47vh;
+    margin: -7px auto 0 auto;
+    text-align: center;
+    color: $white;
+    animation: loader2 $t infinite;
+    font-family:"Playfair Display", serif;
+    font-size: 45px;
+  }
   .loader {
     width: 100px;
     height: 15px;

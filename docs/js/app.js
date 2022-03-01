@@ -51,6 +51,7 @@ $(document).ready(function(){
 
     function TimedEvent() {
         $('.loader').addClass('hide');
+        $('.titled').addClass('hide');
       };
       setTimeout(TimedEvent, 3000);
 

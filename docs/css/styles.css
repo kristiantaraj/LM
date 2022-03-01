@@ -590,6 +590,11 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     transform: translateY(-10px);
     opacity: 0.3; } }
 
+@keyframes loader2 {
+  50% {
+    transform: translateY(-10px);
+    opacity: 0.3; } }
+
 .fade-in {
   animation: fadeIn ease 5s;
   -webkit-animation: fadeIn ease 5s;
@@ -643,6 +648,16 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .hide {
   display: none; }
+
+.titled h2 {
+  position: relative;
+  top: 47vh;
+  margin: -7px auto 0 auto;
+  text-align: center;
+  color: white;
+  animation: loader2 0.7s infinite;
+  font-family: "Playfair Display", serif;
+  font-size: 45px; }
 
 .loader {
   width: 100px;
