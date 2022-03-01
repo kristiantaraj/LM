@@ -42,18 +42,23 @@ $(document).ready(function(){
     //   slidesToScroll: 1
     // });
 
+   
+
+      setTimeout( $(".contain p").click(function() {
+        $('.post').toggleClass('fade-in-image');
+      }), 1000);
      
-    setTimeout(function thisDo() {
-        $('.hide').removeClass('hide');
-        $('.main').addClass('fade-in');
-    }, 3000);
+    // setTimeout(function thisDo() {
+    //     $('.hide').removeClass('hide');
+    //     $('.main').addClass('fade-in');
+    // }, 3000);
 
 
-    function TimedEvent() {
-        $('.loader').addClass('hide');
-        $('.titled').addClass('hide');
-      };
-      setTimeout(TimedEvent, 3000);
+    // function TimedEvent() {
+    //     $('.loader').addClass('hide');
+    //     $('.titled').addClass('hide');
+    //   };
+    //   setTimeout(TimedEvent, 3000);
 
 (function($) { "use strict";
 

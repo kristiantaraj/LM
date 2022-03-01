@@ -16,7 +16,7 @@
 </head>
 <body>
   <div class="titled"><h2>L&M</h2></div>
-  <div class="loader">
+  <div class="loader hiden">
       <div></div>
       <div></div>
       <div></div>
@@ -26,7 +26,7 @@
 
   
 
-  <div class="hide">
+  <div class="hided">
 <div class="main">
 
   
@@ -58,7 +58,7 @@
 									<a class="nav-link" href="#">Home</a>
 								</li>
 								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-									<a class="nav-link" href="#">About us</a>
+									<a class="nav-link" href="#about">About us</a>
 								</li>
 								<!-- <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
 									<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
@@ -73,7 +73,7 @@
 									<a class="nav-link" href="#">Journal</a>
 								</li> -->
 								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-									<a class="nav-link" href="#">Contact</a>
+									<a class="nav-link" href="#footer">Contact</a>
 								</li>
 							</ul>
 						</div>
@@ -97,21 +97,174 @@
     </div>
   </div>
 
-  <!-- <div id="foods">
-    <h2>Snacks</h2>
-  </div> -->
+<div id="about"></div>
+
+
+  <section  class= "section1">
+    <div class= "container">
+      <div class= "content-wrapper row d-flex justify-content-center">
+        <div class="col-10 col-md-6 ">
+          <h1 class= "title">About Us</h1>
+          <p class= "text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita eaque deserunt aliquam. Provident labore molestias sequi autem deleniti eaque nisi corporis eveniet perferendis, ut iusto, recusandae praesentium harum distinctio iste!
+          </p>
+          <p class= "text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, fugit. Aperiam dignissimos voluptates praesentium fugit facere maiores, dolorum obcaecati maxime.
+          </p>
+          <div class="btn-wrapper">
+            <a href="#section2" class="btn">
+              <span>Menu</span>
+            </a>
+          </div>
+        </div>
+     </div>
+    </div>
+  </section>
+  <section id= "section2"></section>
 
   <section id="featured" class="container">
 
     <div class="toggles">
       <div class="contain">
       <p id="showall"><img src="assets/hamburger-menu.png" alt=""></p> 
-     <p id="snacks"><img src="assets/food-restaurant.png" alt=""></p>
-     <p id="drinks"><img src="assets/tea-hot.png" alt=""></p>
-     <p id="alcohol"><img src="assets/glass-drinks.png" alt=""></p>
-     <p id="specials"><img src="assets/stars.png" alt=""></p>
+      <p id="snacks"><img src="assets/food-restaurant.png" alt=""></p>
+      <p id="drinks"><img src="assets/tea-hot.png" alt=""></p>
+      <p id="alcohol"><img src="assets/glass-drinks.png" alt=""></p>
+      <p id="specials"><img src="assets/stars.png" alt=""></p>
     </div>
    </div>
+
+   <button id="modalActivate" type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModalPreview">
+    Quick Menu
+</button>
+<!-- Modal -->
+  
+  <div class="modal fade right" id="exampleModalPreview" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+    <div class="modal-dialog-full-width modal-dialog momodel modal-fluid" role="document">
+        <div class="modal-content-full-width modal-content ">
+          <button type="button" class="close " data-dismiss="modal" aria-label="Close">
+            <span style="font-size: 1.3em;" aria-hidden="true">&times;</span>
+        </button>
+            <div class="modal-body">
+
+              <div class="header">
+                <h1>Menu</h1>
+              </div>
+              <ul>
+                <li>
+                  <p class="menu-name">Chicken & Waffles</p>
+                  <span class="dots"></span>
+                  <p class="menu-price">$20</p>
+                </li>
+                <li>
+                  <p class="menu-name">Spaghetti</p>
+                  <span class="dots"></span>
+                  <p class="menu-price">$20</p>
+                </li>
+                <li>
+                  <p class="menu-name">Spaghetti</p>
+                  <span class="dots"></span>
+                  <p class="menu-price">$20</p>
+                </li>
+                <li>
+                  <p class="menu-name">Spaghetti</p>
+                  <span class="dots"></span>
+                  <p class="menu-price">$25</p>
+                </li>
+                <li>
+                  <p class="menu-name">Lasagna</p>
+                  <span class="dots"></span>
+                  <p class="menu-price">$10</p>
+                </li>
+                <li>
+                  <p class="menu-name">Scrambled Eggs</p>
+                  <span class="dots"></span>
+                  <p class="menu-price">$8</p>
+                </li>
+                <li>
+                  <p class="menu-name">Chicken & Waffles</p>
+                  <span class="dots"></span>
+                  <p class="menu-price">$20</p>
+                </li>
+                <li>
+                  <p class="menu-name">Spaghetti</p>
+                  <span class="dots"></span>
+                  <p class="menu-price">$12</p>
+                </li>
+                <li>
+                  <p class="menu-name">Spaghetti</p>
+                  <span class="dots"></span>
+                  <p class="menu-price">$20</p>
+                </li>
+                <li>
+                  <p class="menu-name">Spaghetti</p>
+                  <span class="dots"></span>
+                  <p class="menu-price">$20</p>
+                </li>
+                <li>
+                  <p class="menu-name">Lasagna</p>
+                  <span class="dots"></span>
+                  <p class="menu-price">$22</p>
+                </li>
+                <li>
+                  <p class="menu-name">Scrambled Eggs</p>
+                  <span class="dots"></span>
+                  <p class="menu-price">$15</p>
+                </li>
+                <li>
+                  <p class="menu-name">Lasagna</p>
+                  <span class="dots"></span>
+                  <p class="menu-price">$22</p>
+                </li>
+                <li>
+                  <p class="menu-name">Scrambled Eggs</p>
+                  <span class="dots"></span>
+                  <p class="menu-price">$15</p>
+                </li>
+                <li>
+                  <p class="menu-name">Lasagna</p>
+                  <span class="dots"></span>
+                  <p class="menu-price">$22</p>
+                </li>
+                <li>
+                  <p class="menu-name">Scrambled Eggs</p>
+                  <span class="dots"></span>
+                  <p class="menu-price">$15</p>
+                </li>
+                <li>
+                  <p class="menu-name">Lasagna</p>
+                  <span class="dots"></span>
+                  <p class="menu-price">$22</p>
+                </li>
+                <li>
+                  <p class="menu-name">Scrambled Eggs</p>
+                  <span class="dots"></span>
+                  <p class="menu-price">$15</p>
+                </li>
+                <li>
+                  <p class="menu-name">Lasagna</p>
+                  <span class="dots"></span>
+                  <p class="menu-price">$22</p>
+                </li>
+                <li>
+                  <p class="menu-name">Scrambled Eggs</p>
+                  <span class="dots"></span>
+                  <p class="menu-price">$15</p>
+                </li>
+                <li>
+                  <p class="menu-name">Lasagna</p>
+                  <span class="dots"></span>
+                  <p class="menu-price">$22</p>
+                </li>
+                <li>
+                  <p class="menu-name">Scrambled Eggs</p>
+                  <span class="dots"></span>
+                  <p class="menu-price">$15</p>
+                </li>
+              </ul>
+              
+            </div>
+        </div>
+    </div>
+</div>
     <div class=" posts">
 
       <div class="row">
@@ -260,7 +413,7 @@
     
 
       </div>
-      <footer>
+      <footer id="footer">
         <div class="container">
           <div class="row">
             <div class="col-md-4 footer-column">
