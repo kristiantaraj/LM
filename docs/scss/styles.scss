@@ -1128,9 +1128,10 @@ section {
   100% {opacity:1;}
 }
 
+
 .modal-body {
   .header {
-    background: #F9C945;
+    background: $secondary;
     padding: 50px 0;
     border-bottom: 3px solid white;
     text-align: center;
@@ -1203,4 +1204,8 @@ section {
 
 .modal-footer-full-width  {
  // border-top: 1px solid #9ea2a2 !important;
+}
+
+.quick-menu {
+  margin-bottom: 20px;
 }

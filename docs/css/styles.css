@@ -933,7 +933,7 @@ section {
     opacity: 1; } }
 
 .modal-body .header {
-  background: #F9C945;
+  background: #2e2e2e;
   padding: 50px 0;
   border-bottom: 3px solid white;
   text-align: center;
@@ -991,3 +991,6 @@ section {
   height: auto !important;
   min-height: 100% !important;
   border-radius: 0 !important; }
+
+.quick-menu {
+  margin-bottom: 20px; }
